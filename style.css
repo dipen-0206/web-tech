@@ -8,3 +8,41 @@ p {
     line-height: 1.5;
     margin: 20px;
 }
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 500px;width: 500px;
+    background-color: lightgrey;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box1 {
+    background-color: lightcoral;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background-color: lightblue;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    background-color: lightgreen;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
