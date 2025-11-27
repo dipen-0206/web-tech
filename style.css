@@ -1,3 +1,36 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    height: 50px;
+    width: 100%;
+    background-color: #cf8383;
+    justify-items   : center;
+    align-content: center;
+    
+    gap: 40px; 
+    padding-left:  20px;
+    padding-right: 20px;
+
+}
+
+.nav-items {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-item li{
+    list-style: none;
+}
 h1 {
     color: navy;
     text-align: center;
@@ -12,8 +45,8 @@ p {
     display: flex;
     justify-content: space-between;
     margin: 20px;
-    height: 200px;width: 500px;
-    background-color: rgb(88, 63, 63);
+    height: 110px;width: 500px;
+    /* background-color: rgb(88, 63, 63); */
     margin-top: 50px;
     padding-top: 50px;
     padding-left: 20px;
@@ -27,7 +60,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
 }
+
 
 .box2 {
     background-color: lightblue;
@@ -36,6 +72,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
 }
 
 .box3 {
@@ -45,6 +83,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
 }
 
 .tab {
