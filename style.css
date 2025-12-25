@@ -131,3 +131,9 @@ p {
     background-color: rgb(94, 51, 51);
     color: white;
 }
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(185, 81, 81);
+}
