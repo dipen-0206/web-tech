@@ -8,12 +8,26 @@ $password = $_POST['password'];
 
 $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
-$query = "select count(*) from users where email='$email'";
+$query = "select * from users where email='$email'";
 
 $res = mysqli_query($db_connection, $query);
 $count = mysqli_num_rows($res);
 
-echo $count;    
+  
+
+
+if ($count == 1)
+{
+    $row = mysqli_fetch_assoc($res);
+    if (password_verify($password, $row['password'])) {
+        // Password is correct
+        $_SESSION['users'] = $row['name']; // Store user info in session
+        header("Location: dashboard.php");
+    } else {
+        // Password is incorrect
+        echo "Invalid username or password. Please try again.";
+    }
+}
 
 die;
 
@@ -31,3 +45,4 @@ if($username === 'admin' && $password === '123') {
 }
 
 
+?>

@@ -4,7 +4,7 @@ include 'header.php';
 ?>
 <div class="content">
    <?php
-   $user = $_SESSION['user'];
+   $user = $_SESSION['users'];
    echo "welcome $user";
 ?>
 </div>
