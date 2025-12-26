@@ -18,7 +18,7 @@ session_start();
         </div>
         <div id="navbar">
             <a href="index.php">Home</a>
-            <a href="services.php">services</a>
+            <a href="products.php">products</a>
             <a href="contact.php">contact</a>
         </div>
         <?php if (!empty($_SESSION['user'])) { ?>
