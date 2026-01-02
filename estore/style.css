@@ -74,7 +74,26 @@
     background-color: rgb(240, 240, 240);
 }
 
+.product_container {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 
+}
+
+.product {
+    height: 300px;
+    width: 200px;
+    background-color: rgb(185, 114, 8);
+    color: tomato;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 20px;
+}
 
 
 
